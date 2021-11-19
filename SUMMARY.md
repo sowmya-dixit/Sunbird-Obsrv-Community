@@ -1,15 +1,14 @@
 # Table of contents
 
 * [Sunbird Obsrv](README.md)
-
-## LEARN
-
-* [Page 1](learn/page-1.md)
-
-## ENGAGE
-
-* [Page 2](engage/page-2.md)
+* [Obsrv : Sample Use cases](obsrv-sample-use-cases.md)
+* [Telemetry Service](telemetry-service.md)
+* [Data Pipeline](data-pipeline.md)
+* [Page 1](page-1.md)
 
 ## USE
 
+* [Page 2](use/page-2.md)
 * [Page 3](use/page-3.md)
+
+## ENGAGE
