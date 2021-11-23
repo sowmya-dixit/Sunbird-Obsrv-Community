@@ -19,13 +19,11 @@ Sunbird allows for generation and consumption of usage data in order to be able 
 
 ![Sunbird data flow](<.gitbook/assets/data flow (1).png>)
 
-All the client apps and micro services within Sunbird/ _otherwise_ are instrumented to generate Telemetry data to capture usage and various actions which can be used to derive insights. The data pipeline will process the Telemetry event stream data in near real-time by application of a series of validation, de-duplication, transformation and denormalization steps. The Telemetry data is synced at various points in the data pipeline to a configurable cloud storage which acts as the persistent data storage.
+The client apps and micro services within Sunbird are instrumented to generate Telemetry data to capture usage and various actions to derive insights. The data pipeline will process the Telemetry event stream data in near real-time by application of a series of validation, de-duplication, transformation and denormalization steps. The Telemetry data is synced at various points in the data pipeline to a configurable cloud storage which acts as the persistent data storage.
 
-A generic summarized dataset is generated from the Telemetry data using a heuristic algorithm which will comprise of commonly used summaries such as session summary. The summarized dataset is an aggregated dataset which can be used to generate custom derived datasets required for custom workflows.
+A generic summarized dataset is generated from the Telemetry data which will comprise of commonly used summaries such as session summary. The summarized dataset is an aggregated dataset which can be used to generate custom derived datasets required for custom workflows.
 
-The summarized stream of data is also merged into the data pipeline. Custom data products can be generated from these streams of data to derive insights.
-
-The event data streams can be synced to an analytic data store to build a access layer to the data sets. The adopters are free to choose any analytics data store and/or visualisation tools (Sunbird supports Druid and Superset out-of-the-box)of their choice to build canned reports and dashboards to slice and dice the data.
+The telemetry event data is then synced to a configurable analytic data store to build a access layer to the data sets. The adopters are free to choose any analytics data store and/or visualisation tools (Sunbird supports Druid and Superset out-of-the-box) of their choice to build canned reports and dashboards to slice and dice the data.
 
 Sunbird Obsrv is a combination of various tools which provide the capabilities such as streaming, processing and storage of telemetry data and deriving reporting insights from the data.
 
@@ -47,11 +45,11 @@ _Obsrv_ allows for extensive configurability so as to enable creation of various
 
 
 
-**Adopters: **Diksha, iGot, Cowin,&#x20;
+**Adopters: **Diksha, iGot, Cowin
 
-**Contributors**: EkStep,&#x20;
+**Contributors**: EkStep
 
-**Last Release Date**:
+**Last Release Date**: 21st Oct, 2021
 
-**Version**:
+**Version**: 4.3.0
 
