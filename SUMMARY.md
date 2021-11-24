@@ -12,8 +12,7 @@
   * [Report Service](learn/components/report-service.md)
   * [Report Configurator](learn/components/report-configurator.md)
   * [Summarisers](learn/components/summarisers.md)
-* [Dependencies](learn/dependencies/README.md)
-  * [Obsrv Dependencies](learn/dependencies/obsrv-dependencies.md)
+* [Dependencies](learn/dependencies.md)
 
 ## Use
 
