@@ -2,18 +2,14 @@
 
 A self-service visualization tool for managing the lifecycle of reports (creation, review and publishing) and report configurations
 
-\
-\
+![Report configuration workflow](<../../.gitbook/assets/Report Configurator.png>)
 
+#### Key Features:
 
-**API Documentation:**
+1. Rich visualization support: Apache Superset is a open-sourced, rich, visualization tool to explore and visualize their data. Superset is supported out of the box in Sunbird Analytics to visualize and configure reports.
+2. Access controls: Configurable access controls to create and publish reports to the backend report processor. The access for various functionalities can be controlled using user roles.
+3. Configurable Storage: The generated reports can be configured on any cloud storage of choice and is flexible to support popular cloud storage such as AWS and Azure.
 
-_\<Link>_
-
-\
-\
-
-
-**Code Repo:**
-
-The Source code for the Report Configurator can be found [here](https://github.com/Sunbird-Ed/incubator-superset).
+{% embed url="https://github.com/Sunbird-Ed/incubator-superset" %}
+Customized Report Publisher
+{% endembed %}
