@@ -6,7 +6,11 @@ It offers powerful data processing and aggregation infrastructure to process tel
 
 
 
-\<IMAGE - Components of _Obsrv_>
+![](<.gitbook/assets/data flow.png>)
+
+
+
+Enabling observability on Sunbird - watch the video [here](https://www.youtube.com/watch?v=ldK4IJeE4X8)
 
 \
 
@@ -16,8 +20,6 @@ It offers powerful data processing and aggregation infrastructure to process tel
 Sunbird allows for generation and consumption of usage data in order to be able to carry out any required analysis. The data flow on the platform is as illustrated below.
 
 
-
-![Sunbird data flow](<.gitbook/assets/data flow (1).png>)
 
 The client apps and micro services within Sunbird are instrumented to generate Telemetry data to capture usage and various actions to derive insights. The data pipeline will process the Telemetry event stream data in near real-time by application of a series of validation, de-duplication, transformation and denormalization steps. The Telemetry data is synced at various points in the data pipeline to a configurable cloud storage which acts as the persistent data storage.
 
