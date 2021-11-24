@@ -1,6 +1,8 @@
 # Data Pipeline
 
-Group of real-time stream processing jobs that processes the event stream of telemetry data generated from client apps and micro services. The telemetry data goes through a series of steps such as validation, de-duplication, transformation and denormalisation of metadata. The transformed data is then stored in a consumable format that can be used for further analysis.
+Group of real-time stream processing jobs that processes the event stream of telemetry data generated from client apps and micro services. The telemetry data goes through a series of steps such as validation, de-duplication, transformation and denormalization of metadata. The transformed data is then stored in a consumable format that can be used for further analysis.
+
+![Analytics Data Pipeline](../../.gitbook/assets/DataPipeline\_Component.png)
 
 #### Key Features:
 
