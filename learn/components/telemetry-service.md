@@ -8,7 +8,7 @@ Telemetry Service is a highly scalable micro service which allows various compon
 2. Configurable storage: The service supports disk storage, Apache Kafka, Apache Cassandra as data storage.
 3. In-built compression: Efficient use of network bandwidth by compressing the messages sent to the data storage.
 
-#### Configuration Reference:
+#### Installation Configuration Reference:
 
 | Property            | Description                                                                                         | Default                               |
 | ------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------- |

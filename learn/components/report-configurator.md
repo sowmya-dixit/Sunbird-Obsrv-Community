@@ -2,7 +2,7 @@
 
 A self-service visualization tool for managing the lifecycle of reports (creation, review and publishing) and report configurations
 
-![Report configuration workflow](<../../.gitbook/assets/Report Configurator.png>)
+![Report Configurator Workflow](<../../.gitbook/assets/Report Configurator (1).png>)
 
 #### Key Features:
 

@@ -13,7 +13,7 @@ Group of real-time stream processing jobs that processes the event stream of tel
 7. Auto-scaling: The data processing pipeline offers support for auto-scaling out of the box. This helps the pipeline to adapt to changes in the incoming data volume.
 8. Real-time analytics: The data processing pipeline offers out of the box support with Apache Druid, an analytics data store design for fast slice-and-dice analytics.
 
-#### Configuration Reference:
+#### Installation Configuration Reference:
 
 | Property                   | Description                                                         | Default           |
 | -------------------------- | ------------------------------------------------------------------- | ----------------- |
