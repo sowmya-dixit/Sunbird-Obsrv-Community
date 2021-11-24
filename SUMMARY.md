@@ -4,6 +4,7 @@
 
 ## Learn
 
+* [Use cases](learn/use-cases.md)
 * [Components](learn/components/README.md)
   * [Telemetry Service](learn/components/telemetry-service.md)
   * [Data Pipeline](learn/components/data-pipeline.md)
@@ -16,8 +17,8 @@
 
 ## Use
 
-* [Obsrv : Sample Use cases](use/obsrv-sample-use-cases.md)
+* [Install](use/install.md)
 
 ## ENGAGE
 
-* [Discuss?](engage/discuss.md)
+* [Discuss](engage/discuss.md)
