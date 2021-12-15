@@ -20,3 +20,11 @@ Resolution: _Obsrv_ uses the meta data provided by the _Lern_ building block in 
 
 
 
+## Keycloak & Kong   <a href="#sunbird-telemetry" id="sunbird-telemetry"></a>
+
+\<description>
+
+{% hint style="info" %}
+Resolution :&#x20;
+{% endhint %}
+
