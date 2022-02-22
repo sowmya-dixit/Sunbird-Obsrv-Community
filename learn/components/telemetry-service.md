@@ -30,7 +30,7 @@ Telemetry Service is a highly scalable micro service which allows various compon
 ****
 
 {% hint style="info" %}
-[Telemetry Service API Documentation](http://docs.sunbird.org/latest/apis/telemetryapi/index.html)
+Telemetry documentation [telemetry.sunbird.org](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/)&#x20;
 {% endhint %}
 
 {% embed url="https://github.com/project-sunbird/sunbird-telemetry-service" %}
