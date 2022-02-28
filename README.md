@@ -21,7 +21,7 @@ Enabling observability on Sunbird - watch the video [here](https://www.youtube.c
 
 &#x20;_**Sunbird Obsrv**_
 
-**Adopters: **Diksha, iGot, Cowin
+**Adopters:** Diksha, iGot, Cowin
 
 **Contributors**: EkStep
 
