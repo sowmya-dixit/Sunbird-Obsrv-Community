@@ -20,7 +20,9 @@ The generation of all necessary data for measurements, its streaming, processing
 
 
 
-Functional capabilities of Sunbird Obsrv:
+### Key capabilities that Sunbird Obsrv can enable:
+
+
 
 **Defining what to measure, and how**: An ability to define a flexible specification to capture the user interaction/system data which will help in deriving insights about various metrics to understand or improve the system. The data could be generated from the client apps due to user interactions or from IoT devices to observe/capture a specific phenomenon or from backend systems generating logs of their activities.&#x20;
 
