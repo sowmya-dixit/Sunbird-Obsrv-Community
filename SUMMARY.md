@@ -1,24 +1,28 @@
 # Table of contents
 
-* [Sunbird Obsrv](README.md)
+* [Overview](README.md)
 
 ## Learn
 
-* [Use cases](learn/use-cases.md)
-* [Components](learn/components/README.md)
-  * [Telemetry Service](learn/components/telemetry-service.md)
-  * [Data Pipeline](learn/components/data-pipeline.md)
-  * [Data Service](learn/components/data-service.md)
-  * [Report Service](learn/components/report-service.md)
-  * [Report Configurator](learn/components/report-configurator.md)
-  * [Summarisers](learn/components/summarisers.md)
+* [Functional Capabilities](learn/functional-capabilities.md)
+* [Product & Developer Guide](learn/product-and-developer-guide/README.md)
+  * [Telemetry Service](learn/product-and-developer-guide/telemetry-service.md)
+  * [Data Pipeline](learn/product-and-developer-guide/data-pipeline.md)
+  * [Data Service](learn/product-and-developer-guide/data-service.md)
+  * [Report Service](learn/product-and-developer-guide/report-service.md)
+  * [Report Configurator](learn/product-and-developer-guide/report-configurator.md)
+  * [Summarisers](learn/product-and-developer-guide/summarisers.md)
 * [Dependencies](learn/dependencies.md)
-
-## Use
-
-* [System Requirements](use/system-requirements.md)
-* [Install](use/install.md)
+* [Product Roadmap](learn/product-roadmap.md)
+* [Release Notes](learn/release-notes.md)
 
 ## ENGAGE
 
+***
+
 * [Discuss](https://github.com/Sunbird-Obsrv/Community/discussions)
+
+## Use
+
+* [Installation Guide](use/installation-guide.md)
+* [System Requirements](use/system-requirements.md)
