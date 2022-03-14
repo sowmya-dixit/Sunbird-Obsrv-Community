@@ -53,13 +53,5 @@ The generation of all necessary data for measurements, its streaming, processing
 
 
 
-&#x20;_**Sunbird Obsrv**_
-
-**Adopters:** Diksha, iGot, Cowin
-
-**Contributors**: EkStep
-
-**Last Release Date**: 21st Oct, 2021
-
-**Version**: 4.3.0
+&#x20;
 
