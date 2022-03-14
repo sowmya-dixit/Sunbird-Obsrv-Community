@@ -24,15 +24,15 @@ The generation of all necessary data for measurements, its streaming, processing
 
 
 
-**Defining what to measure, and how**: An ability to define a flexible specification to capture the user interaction/system data which will help in deriving insights about various metrics to understand or improve the system. The data could be generated from the client apps due to user interactions or from IoT devices to observe/capture a specific phenomenon or from backend systems generating logs of their activities.&#x20;
+**Observe What Matters**: Derive insights to understand user behaviour and preferences, improve products, etc. by capturing user interaction & system data according to flexible specifications defined by you.
 
-**Seamless transfer of data from source to store**: An out of the box design to stream and store the telemetry data by decoupling the data generation systems with the data processing systems.&#x20;
+**Seamless Data Transfer**: Stream and store the telemetry data efficiently using an out-of-the-box design that decouples data generation systems from the data processing systems.
 
-**Configurable data cleansing and processing**: An ability to cleanse and transform the user interaction/system data according to the reporting requirements. This is usually performed as a real-time stream processing with addition of metadata of various entities such as user, device and content to the telemetry data.&#x20;
+**Scalable Data Processing:** Perform real-time data processing i.e. cleaning & transforming according to reporting needs, with addition of metadata of various entities such as user, device and content.&#x20;
 
-**Out-of-the-box aggregates for common metrics**: Generate a high level summary from the telemetry data to compute measures such as time spent in a session and/or time spent on a content at a granular level such as a device or user.&#x20;
+**Readymade Key Metrics**: Derive insights quickly, from pre-defined summary metrics such as time spent in a session, time spent on a content etc.
 
-**Tools for user-friendly reporting**: An ability to load both the telemetry data and summarized data into an analytics data store to support queries and reporting requirements in near real-time.
+**Easy Reporting and Querying**: perform advanced analytics & reporting in near real-time by running queries on both the telemetry data and summarized data that is loaded into an analytics data store.
 
 
 
