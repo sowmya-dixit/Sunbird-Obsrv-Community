@@ -34,7 +34,7 @@ _<mark style="color:blue;"></mark>_
 
 _<mark style="color:blue;"></mark>_
 
-_<mark style="color:blue;">A few examples of possibilities that can be bought to live using Obsrv</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">include:</mark>
+Some additional possibiities that can be visualised using Sunbird Obsrv include:
 
 * Allowing for `capture of telemetry` as per chosen specifications from an agricultural monitoring system, and `processing and analysis of the resulting data` to optimise output
 * Aggregation of anonymised health data from across platforms, and its `analysis` to arrive at health indicators and patterns at population scale.&#x20;
