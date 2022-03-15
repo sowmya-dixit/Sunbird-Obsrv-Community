@@ -14,7 +14,6 @@
   * [Summarisers](learn/product-and-developer-guide/summarisers.md)
 * [Dependencies](learn/dependencies.md)
 * [Product Roadmap](learn/product-roadmap.md)
-* [Release Notes](learn/release-notes.md)
 
 ## ENGAGE
 
@@ -24,5 +23,6 @@
 
 ## Use
 
+* [Release Notes](use/release-notes.md)
 * [Installation Guide](use/installation-guide.md)
 * [System Requirements](use/system-requirements.md)
