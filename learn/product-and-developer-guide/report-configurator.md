@@ -10,6 +10,16 @@ A self-service visualization tool for managing the lifecycle of reports (creatio
 2. Access controls: Configurable access controls to create and publish reports to the backend report processor. The access for various functionalities can be controlled using user roles.
 3. Configurable Storage: The generated reports can be configured on any cloud storage of choice and is flexible to support popular cloud storage such as AWS and Azure.
 
+#### Additional Documentation:
+
+Report Configuration Guide:&#x20;
+
+{% file src="../../.gitbook/assets/Hawkeye Configuration Guide.pdf" %}
+
+****
+
+**Source Code:**
+
 {% embed url="https://github.com/Sunbird-Ed/incubator-superset" %}
 Customized Report Publisher
 {% endembed %}
