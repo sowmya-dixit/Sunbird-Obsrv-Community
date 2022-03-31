@@ -48,7 +48,13 @@ The generation of all necessary data for measurements, its streaming, processing
 
 {% embed url="https://www.youtube.com/watch?v=ldK4IJeE4X8" %}
 
-\
+
+
+
+
+Sunbird Obsrv is leveraged in DIKSHA - Digital Infrastructure for Knowledge Sharing, the national school education platform of India. &#x20;
+
+_**Contributors:**_ EkStep\
 
 
 
