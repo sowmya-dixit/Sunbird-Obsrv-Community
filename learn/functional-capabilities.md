@@ -20,11 +20,13 @@
 
 <mark style="color:green;">**Flexible Data Model Specification:**</mark> <mark style="color:green;"></mark><mark style="color:green;">The Telemetry data model is designed to instrument telemetry data (interactions, metrics and logs) for any domain.</mark>&#x20;
 
-<mark style="color:green;">**Data collection at scale:**</mark> <mark style="color:green;"></mark><mark style="color:green;">Perform seamless telemetry data collection from client apps using horizontally scalable api.</mark>&#x20;
+<mark style="color:green;">**Data collection at scale:**</mark> <mark style="color:green;"></mark><mark style="color:green;">Perform seamless telemetry data collection from client apps using horizontally scalable api.</mark> Ability to seamlessly scale the telemetry data collection is very important as it enables the client applications to sync the data without any data loss and also determines the rate at which . The data collection api in Sunbird Obsrv can be horizontally scaled by adding more instances of the collector both in containerized and virtual machine based environments. The data collector also provides options for configurable data sink such as Apache Kafka, Apache Cassandra or local hard disks. The data sinks, in turn, can be scaled horizontally which helps transferring telemetry data at very high transfer rates along with consistent and durable storage.
 
-<mark style="color:green;">**Easy integration with Cloud providers:**</mark> <mark style="color:green;"></mark><mark style="color:green;">The analytics platform can be easily deployed onto any of the popular cloud platforms such as AWS, Azure or Google Cloud Platform.</mark>&#x20;
+<mark style="color:green;">**Easy integration with Cloud providers:**</mark> <mark style="color:green;"></mark><mark style="color:green;">The analytics platform is cloud agnostic and can be easily deployed onto any of the popular cloud platforms such as AWS, Azure or Google Cloud Platform.</mark> The analytics platform has various plugable components and all of the components provide configurations to support deployments onto the popular cloud platforms. Furthermore, most of the components are deployed onto Kubernetes, the most popular tool for container orchestration.&#x20;
 
 <mark style="color:green;">**Streaming/Batch data processing:**</mark> <mark style="color:green;"></mark><mark style="color:green;">The analytics platform provides an ability to process both real-time streaming data and batch data to derive insights.</mark>&#x20;
+
+The analytics platform is built using lambda architecture principles.&#x20;
 
 <mark style="color:green;">**Build fast, scalable data analytics:**</mark> <mark style="color:green;"></mark><mark style="color:green;">The analytics platform is designed to build ad-hoc analytics or recurring reports in a fast, scalable manner.</mark>&#x20;
 
