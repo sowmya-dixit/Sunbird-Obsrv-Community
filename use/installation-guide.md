@@ -1,8 +1,14 @@
 # Installation Guide
 
-All components in Sunbird Obsrv can be installed through automation scripts. The automation scripts require [Ansible](https://docs.ansible.com/ansible/latest/index.html) as a prerequisite. Some of the components also require [helm](https://helm.sh/docs/) as a prerequisite to run the component on [Kubernetes](https://kubernetes.io).
+All components in Sunbird Obsrv can be installed through automation scripts. The automation scripts require [Ansible](https://docs.ansible.com/ansible/latest/index.html) as a prerequisite. Some of the components also require the de-facto package manager for Kubernetes, [helm](https://helm.sh/docs/) as a prerequisite to run the component on [Kubernetes](https://kubernetes.io).
 
 #### Telemetry Service
+
+The Sunbird Obsrv Telemetry service can be deployed onto Kubernetes using the helm chart. The deployment is handled using Ansible to manage the configuration and the commands that are necessary. The deployments can also be integrated into Jenkins, a popular CI/CD tool. The Telemetry Service deployment also has the capability of configurable horizontal scaling using the Horizontal Pod Scaling (HPA) concept of Kubernetes. A sample command to deploy the telemetry service on Kubernetes is provided below.
+
+```
+helm install telemetry-service sunbird-devops/kubernetes/helm_charts/telemetry -n <namespace> --create-namespace
+```
 
 {% embed url="https://github.com/project-sunbird/sunbird-devops/tree/release-4.8.0/kubernetes/helm_charts/core/telemetry" %}
 Telemetry Service helm chart
