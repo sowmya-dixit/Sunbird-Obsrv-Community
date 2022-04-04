@@ -24,17 +24,17 @@ The generation of all necessary data for measurements, its streaming, processing
 
 
 
-**Observe What Matters**: Derive insights to understand user behaviour and preferences, improve products, etc. by capturing user interaction & system data according to flexible specifications defined by you.
+**Flexible Data Model Specification to adapt to any domain**: Derive insights to understand user behaviour and preferences, improve products, etc. by capturing user interaction & system data according to flexible specifications defined by you.
 
-**Seamless Data Transfer**: Stream and store the telemetry data efficiently using an out-of-the-box design that decouples data generation systems from the data processing systems.
+**Data collection at scale**: Stream and store the telemetry data efficiently using an out-of-the-box design that decouples data generation systems from the data processing systems , and is optimised for scale.
 
-**Scalable Data Processing:** Perform real-time data processing i.e. cleaning & transforming according to reporting needs, with addition of metadata of various entities such as user, device and content.&#x20;
+**Easy integration with Cloud providers**: The analytics platform is cloud agnostic and can be easily deployed onto any of the popular cloud platforms such as AWS, Azure or Google Cloud Platform.
 
-**Readymade Key Metrics**: Derive insights quickly, from pre-defined summary metrics such as time spent in a session, time spent on a content etc.
+**Streaming/Batch data processing:** Perform real-time data processing i.e. cleaning & transforming according to reporting needs, along with addition of metadata of various entities such as user, device and content - as required.&#x20;
 
-**Easy Reporting and Querying**: perform advanced analytics & reporting in near real-time by running queries on both the telemetry data and summarized data that is loaded into an analytics data store.
+**Build fast, scalable data analytics**: Perform advanced analytics & reporting in near real-time by running queries on both the telemetry data and summarized data that is loaded into an analytics data store.
 
-
+**Readymade metrics & Downloadable data**: Derive insights quickly, from pre-defined summary metrics such as time spent in a session, time spent on a content etc. Also get access to raw/ summary datasets via APIs for further need-based analysis.
 
 
 
