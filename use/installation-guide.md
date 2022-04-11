@@ -7,7 +7,8 @@ All components in Sunbird Obsrv can be installed through automation scripts. The
 The Sunbird Obsrv Telemetry service can be deployed onto Kubernetes using the helm chart. The deployment is handled using Ansible to manage the configuration and the commands that are necessary. The deployments can also be integrated into Jenkins, a popular CI/CD tool. The Telemetry Service deployment also has the capability of configurable horizontal scaling using the Horizontal Pod Scaling (HPA) concept of Kubernetes. A sample command to deploy the telemetry service on Kubernetes is provided below.
 
 ```
-helm install telemetry-service sunbird-devops/kubernetes/helm_charts/telemetry -n <namespace> --create-namespace
+helm install telemetry-service sunbird-devops/kubernetes/helm_charts/telemetry 
+-n <namespace> --create-namespace
 ```
 
 {% embed url="https://github.com/project-sunbird/sunbird-devops/tree/release-4.8.0/kubernetes/helm_charts/core/telemetry" %}
@@ -15,6 +16,14 @@ Telemetry Service helm chart
 {% endembed %}
 
 #### Data Pipeline
+
+Sunbird Obsrv Data Pipeline consists of a series of real-time streaming jobs chained together to unzip, transform and enrich the telemetry data. We use ansible and helm charts to deploy the series of jobs. The list of jobs that need to be deployed and their configurations can be controlled by the [ansible defaults configuration](https://github.com/project-sunbird/sunbird-data-pipeline/blob/release-4.8.0/kubernetes/ansible/roles/flink-jobs-deploy/defaults/main.yml#L168-L339).
+
+```
+ansible-playbook $currentWs/kubernetes/ansible/deploy_jobs.yml 
+--extra-vars "chart_path=${currentWs}/kubernetes/helm_charts/datapipeline_jobs 
+job_names_to_deploy=<comma-separate-list-of-job-names>"
+```
 
 {% embed url="https://github.com/project-sunbird/sunbird-data-pipeline/tree/release-4.8.0/kubernetes/ansible/roles/flink-jobs-deploy" %}
 Ansible role for Data Pipeline
