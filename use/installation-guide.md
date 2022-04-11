@@ -29,7 +29,22 @@ job_names_to_deploy=<comma-separate-list-of-job-names>"
 Ansible role for Data Pipeline
 {% endembed %}
 
+Sunbird Obsrv uses the following list of fields to de-normalize the user metadata. These fields are obtained by calling the user-read api belonging to [Sunbird Lern](https://lern.sunbird.org) building block. The de-normalization job can be modified to read the user metadata from a service/api of the adopter's choice.&#x20;
+
+```
+firstName, lastName, encEmail, encPhone, language, rootOrgId, profileUserType (usertype, subusertype), 
+userLocations(state, district, block, cluster, school), rootOrg (orgName), userId, 
+framework, profileUserTypes (usertype, subusertype)
+```
+
 #### Data Service
+
+The Data Service is a collection of data exhaust and report apis. The Data Service can be installed on Kubernetes using Ansible and Helm. A sample command to install the service is provided below. All the required configuration is managed using the [ansible configuration](https://github.com/project-sunbird/sunbird-devops/blob/release-4.8.0/ansible/roles/stack-sunbird/defaults/main.yml#L987-L1015).
+
+```
+helm install telemetry-service sunbird-devops/kubernetes/helm_charts/analytics 
+-n <namespace> --create-namespace
+```
 
 {% embed url="https://github.com/project-sunbird/sunbird-devops/tree/release-4.8.0/kubernetes/helm_charts/core/analytics" %}
 Data Service helm chart
