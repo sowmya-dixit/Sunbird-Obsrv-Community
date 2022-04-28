@@ -12,9 +12,9 @@ A self-service visualization tool for managing the lifecycle of reports (creatio
 
 #### Additional Documentation:
 
-Report Configuration Guide:&#x20;
+Sunbird Report Configuration Guide:&#x20;
 
-{% file src="../../.gitbook/assets/Hawkeye Configuration Guide.pdf" %}
+{% file src="../../.gitbook/assets/SB Report Configuration Guide.pdf" %}
 
 ****
 
