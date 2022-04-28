@@ -47,11 +47,11 @@ The Report APIs provide the ability to generate and schedule custom reports from
 
 **Additional Documentation:**
 
-**Accessing Data Exhaust APIs :**&#x20;
+**Accessing Sunbird Data Exhaust APIs :**&#x20;
+
+{% file src="../../.gitbook/assets/Sunbird Data Exhaust APIs.pdf" %}
 
 ****
-
-{% file src="../../.gitbook/assets/Data Exhaust APIs.pdf" %}
 
 {% embed url="https://github.com/project-sunbird/sunbird-analytics-service" %}
 Data Service source code
