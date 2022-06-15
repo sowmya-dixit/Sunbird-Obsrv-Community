@@ -24,5 +24,6 @@
 ## Use
 
 * [Release Notes](use/release-notes.md)
+  * [Release V 4.10.5 (Latest)](use/release-notes/release-v-4.10.5.md)
 * [Installation Guide](use/installation-guide.md)
 * [System Requirements](use/system-requirements.md)
